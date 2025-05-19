@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>بطاقة معايدة - عيد الأضحى</title>
+  <style>
+    @font-face {
+      font-family: 'GE SS Two';
+      src: url('GE-SS-Two-Medium.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+      font-family: 'GE SS Two', sans-serif;
+      background-color: #000; /* فقط لتباين الخلفية إذا ما اشتغلت الصورة */
+    }
+
+    .card {
+      position: relative;
+      width: 100%;
+      max-width: 768px;
+      margin: 0 auto;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .name-box {
+      position: absolute;
+      bottom: 160px; /* عدّل الرقم إذا تغير مكان المربع */
+      left: 50%;
+      transform: translateX(-50%);
+      border: 2px solid white;
+      border-radius: 40px;
+      padding: 10px 30px;
+      font-size: 22px;
+      color: white;
+      background-color: transparent;
+      backdrop-filter: blur(4px);
+      font-family: 'GE SS Two', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="١٣.jpg" alt="بطاقة تهنئة عيد الأضحى">
+    <div class="name-box">محمد أحمد</div>
+  </div>
+</body>
+</html>
